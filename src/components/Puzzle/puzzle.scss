@@ -1,0 +1,18 @@
+.thoth__ui-component__puzzle{
+    &__title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem 30rem 2rem 30rem
+    }
+}

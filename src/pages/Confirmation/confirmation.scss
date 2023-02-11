@@ -1,0 +1,27 @@
+.thoth__confirmation-page {
+  &__tick-svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%
+  }
+
+  &__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__answer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 30rem 2rem 30rem
+  }
+
+  &__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

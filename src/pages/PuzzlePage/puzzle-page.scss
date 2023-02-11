@@ -1,0 +1,18 @@
+.thoth__puzzle-page {
+  &__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+  }
+  &__title {
+    flex: 1;
+    max-width: min-content;
+    color: black;
+  }
+  &__logo {
+    flex: 1;
+    max-width: min-content;
+  }
+}

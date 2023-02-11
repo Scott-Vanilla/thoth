@@ -1,0 +1,24 @@
+.thoth__ui-component__user-answer {
+  &__input-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    &__error {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  &__incorrect-answer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+  }
+  &__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

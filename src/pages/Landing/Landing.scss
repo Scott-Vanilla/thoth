@@ -1,0 +1,27 @@
+.thoth__landing-page {
+margin-top:5rem;
+
+  &__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__subtitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+
+  &__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
