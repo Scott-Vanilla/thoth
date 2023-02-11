@@ -11,4 +11,7 @@ A platform for computational puzzles.
 + Add in table of previous puzzles
 + Add in current score leaderboard
 + Add in specific tournaments for defined groups
-+ Add in Hall of Fame
++ Add in Hall of Fame ✅
++ Add in Header component
++ Add scss variables
++ Restructure for higher level of abstraction between components
