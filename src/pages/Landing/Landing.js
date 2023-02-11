@@ -23,6 +23,11 @@ const Landing = () => {
               <Button>Go to Puzzle</Button>
             </Link>
           </div>
+          <div className="thoth__landing-page__button">
+            <Link to="/halloffame">
+              <Button>Go to Hall of Fame</Button>
+            </Link>
+          </div>
         </div>
       </FadeIn>
     </div>
