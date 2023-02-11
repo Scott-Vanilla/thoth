@@ -6,6 +6,7 @@ A platform for computational puzzles.
 
 + Add pre-deployment and deployment for github.io
 + Add in Lambda and DynamoDB for score tracking
++ Add in Lambda and DynamoDB for puzzle fetching
 + Add in users to keep track at points per user
 + Add in table of previous puzzles
 + Add in current score leaderboard
