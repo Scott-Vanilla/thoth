@@ -1,5 +1,6 @@
 import React from "react";
-import { Image, Button, Text } from "@geist-ui/core";
+import { Image, Button, Text} from "@geist-ui/core";
+import { Github } from "@geist-ui/icons";
 import { Link } from "react-router-dom";
 import FadeIn from "react-fade-in";
 import logo from "../../assets/thoth-logo.png";
@@ -27,6 +28,11 @@ const Landing = () => {
             <Link to="/halloffame">
               <Button>Go to Hall of Fame</Button>
             </Link>
+          </div>
+          <div className="thoth__landing-page__button">
+            <a href="https://github.com/Scott-Vanilla">
+          <Github color="black" size={36}/>
+            </a>
           </div>
         </div>
       </FadeIn>

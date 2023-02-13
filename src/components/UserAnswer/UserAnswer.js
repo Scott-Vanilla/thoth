@@ -9,11 +9,8 @@ const UserAnswer = () => {
   const navigate = useNavigate();
   const handler = (e) => {
     setValue(e.target.value);
-    console.log(e.target.value);
   };
   const handleSubmit = () => {
-    console.log(value);
-    console.log("answer: ", answer);
     if (value === answer) {
       setError(false);
       navigate('/success')
