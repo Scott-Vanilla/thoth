@@ -7,13 +7,15 @@ import { useNavigate } from "react-router-dom";
 
 const LogIn = () => {
 
-    const {navigate} = useNavigate();
+    const navigate = useNavigate();
     const [username, setUsername] = useState();
     const [password, setPassword] = useState();
     const [error, setError] = useState();
 
-    const loginHandler = (username, password) => {
+    const loginHandler = () => {
 
+        console.log(username)
+        console.log(password)
         if(username === "scottmac" && password === "123"){
             localStorage.setItem("user", username);
             localStorage.setItem("authToken", true);
@@ -37,8 +39,8 @@ const LogIn = () => {
             <div className="thoth__landing-page__subtitle">
               <Text p>Please login using your details.</Text>
             </div>
-            <SingleInputForm label="Username"/>
-            <SingleInputForm label="Password"/>
+            <SingleInputForm customOnChange={(value)=>setUsername(value)} label="Username"/>
+            <SingleInputForm customOnChange={(value)=>setPassword(value)} label="Password"/>
             <div className="thoth__landing-page__button">
                 <Button onClick={loginHandler}>Login</Button>
             </div>
