@@ -3,6 +3,8 @@ import PuzzlePage from "../../pages/PuzzlePage/PuzzlePage";
 import Landing from "../../pages/Landing/Landing";
 import Confirmation from "../../pages/Confirmation/Confirmation";
 import Champions from "../../pages/Champions/Champions";
+import PersonalTournaments from "../../pages/PersonalTournaments/PersonalTournaments";
+import LogIn  from "../../pages/LogIn/LogIn";
 
 export const AppRouter = () => {
   return (
@@ -17,6 +19,8 @@ export const AppRouter = () => {
           }
         />
         <Route path="/halloffame" element={<Champions />} />
+        <Route path="/personal-tournaments" element={<PersonalTournaments />} />
+        <Route path="/login" element={<LogIn />} />
       </Routes>
     </BrowserRouter>
   );

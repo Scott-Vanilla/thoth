@@ -30,6 +30,11 @@ const Landing = () => {
             </Link>
           </div>
           <div className="thoth__landing-page__button">
+            <Link to="/login">
+              <Button>Login</Button>
+            </Link>
+          </div>
+          <div className="thoth__landing-page__button">
             <a href="https://github.com/Scott-Vanilla">
           <Github color="black" size={36}/>
             </a>
