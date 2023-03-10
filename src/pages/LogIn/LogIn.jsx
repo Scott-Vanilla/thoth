@@ -13,15 +13,11 @@ const LogIn = () => {
     const [error, setError] = useState();
 
     const loginHandler = () => {
-
-        console.log(username)
-        console.log(password)
         if(username === "scottmac" && password === "123"){
             localStorage.setItem("user", username);
             localStorage.setItem("authToken", true);
             navigate('/')
         }
-
     }
     return(
         <div className="thoth__landing-page">
