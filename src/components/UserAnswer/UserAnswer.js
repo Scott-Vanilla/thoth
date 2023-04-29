@@ -3,7 +3,7 @@ import { Input, Button, Text } from "@geist-ui/core";
 import { useNavigate } from "react-router-dom";
 
 const UserAnswer = () => {
-  const answer = "20";
+  const answer = "0";
   const [value, setValue] = useState();
   const [error, setError] = useState(false);
   const navigate = useNavigate();

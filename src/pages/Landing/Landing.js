@@ -6,9 +6,9 @@ import FadeIn from "react-fade-in";
 import logo from "../../assets/thoth-logo.png";
 
 const Landing = () => {
-  const getUser = () => {
-    return localStorage.getItem("user");
-  };
+  // const getUser = () => {
+  //   return localStorage.getItem("user");
+  // };
   return (
     <div className="thoth__landing-page">
       <FadeIn>
@@ -18,7 +18,16 @@ const Landing = () => {
           */}
           {/* <div className="thoth__landing-page__header__user">
             <Card hoverable>
-              <p>{`Current user: ${getUser()}`}</p>
+              <Text p>{`Current user: ${getUser()}`}</Text>
+              <Card.Footer>
+                <Link
+                  color
+                  target="_blank"
+                  href="https://github.com/geist-org/geist-ui"
+                >
+                  Go to my account.
+                </Link>
+              </Card.Footer>
             </Card>
           </div> */}
         </div>
