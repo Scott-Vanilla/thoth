@@ -29,9 +29,9 @@ export const PuzzlePage = () => {
         <div className="thoth__puzzle-page__puzzle">
           <Puzzle
             puzzle={{
-              title: "Q1 Puzzle 4: Mayor Mayhem",
-              image: "https://cdn-icons-png.flaticon.com/512/33/33308.png",
-              text: "Three people at odds with one another are running for mayor in the upcoming town election. They are all locals of the town, which has a voter population of 40. In order to win, a candidate must get more votes than any other candidate. If each of the 40 voters casts a single vote and every vote is recognised, what is the fewest number of votes a candidate needs to secure victory?",
+              title: "Q2 Puzzle 1: The 3 Rhiannas (Get it... Umbrella...)",
+              image: "https://www.freeiconspng.com/thumbs/umbrella-icons/umbrella-icon-19.png",
+              text: "Three identical-looking umbrellas are sitting upright in a stand. Assuming the owners don't check their umbrellas' labels, what percentage chance is there that only two people will walk off with their own umbrella? (You don't need to type in the % symbol at the end of your answer.)",
             }}
           />
           <UserAnswer />

@@ -1,0 +1,14 @@
+{
+  "tournamentList": [
+    {
+      "name": "Audi Q1 2023",
+      "weeksLeft": "12",
+      "currentPlacement": "2nd"
+    },
+    {
+      "name": "Web Team 1 Internal Tournament",
+      "weeksLeft": "6",
+      "currentPlacement": "5th"
+    }
+  ]
+}
